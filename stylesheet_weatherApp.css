@@ -1,0 +1,108 @@
+
+.main{
+    display: flex-wrap;
+    box-shadow: 0 0.125em 0.25em 0 rgba(245, 241, 241, 0.459);
+    background-color: rgba(122, 121, 121, 0.719);
+    width:fit-content;
+    height:40em;
+}
+
+header{
+    display:flex-wrap;
+    padding:1em; 
+}
+
+header h1{
+    color:#df9a06d0;
+    font-size: xxx-large;
+    padding-top:2em;
+    padding-left: 2em;
+}
+
+header h3{
+    font-style:italic;
+}
+
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Open Sans', sans-serif;
+    background: #222;    
+    background-image: url(https://source.unsplash.com/1600x900/?sun,rain,wind,thunder,clouds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:120%;
+}
+
+.weatherContainer {
+    background:  #df9a06d0;
+    color:white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 20em;
+    max-width: 420px;
+    margin: auto;
+}
+
+
+.searchBox{   
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+::placeholder{
+    color:white;
+}
+
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.4em;
+    width: 2.4em;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: 90%;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp{
+    margin:0;
+    margin-bottom: 0.4em;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left:8px;
+}
+
+
+
